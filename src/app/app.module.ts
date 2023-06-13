@@ -7,11 +7,13 @@ import { StoreModule } from '@ngrx/store';
 import { reducers, metaReducers } from './reducers';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { MyCounterComponent } from './my-counter/my-counter.component';
+import { StatesModifierComponent } from './states-modifier/states-modifier.component';
 
 @NgModule({
   declarations: [
     MyCounterComponent,
-    AppComponent
+    AppComponent,
+    StatesModifierComponent
   ],
   imports: [
     BrowserModule,
